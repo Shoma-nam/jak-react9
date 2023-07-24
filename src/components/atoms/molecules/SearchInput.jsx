@@ -1,10 +1,10 @@
-import { PrimaryButton } from "../atoms/button/PrimaryButton";
+import { PrimaryButton } from "../button/PrimaryButton";
 
-export const SeachInput = () => {
-  return (
-    <div>
-      <input />
-      <PrimaryButton>検索</PrimaryButton>
-    </div>
-  );
-};
+export function SearchInput() {
+    return (
+        <div>
+            <input />
+            <PrimaryButton>検索</PrimaryButton>
+        </div>
+    );
+}
